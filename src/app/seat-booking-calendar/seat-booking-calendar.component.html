@@ -1,0 +1,21 @@
+<div class="container">
+  <span class="table-header">Roster Calendar</span>
+  <table>
+    <tbody>
+    <tr>
+      <th class="employee-card">Employee Name</th>
+      <th *ngFor="let date of calendarDates">
+        <p>{{ date.getDate() }} {{ months[date.getMonth()] }}</p>
+      <span>{{ weekDays[date.getDay()] }}</span>
+      </th>
+    </tr>
+    <tr *ngFor="let e of noOfEmployee">
+      <td class="employee-card"><app-employee-card></app-employee-card></td>
+      <td *ngFor="let date of calendarDates">
+        <p><app-yes-no-selector></app-yes-no-selector></p>
+        <app-seat-booking-card></app-seat-booking-card>
+      </td>
+    </tr>
+  </tbody>
+  </table>
+</div>

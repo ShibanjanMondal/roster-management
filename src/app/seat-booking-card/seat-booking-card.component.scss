@@ -1,0 +1,27 @@
+  .seat-card{
+    background-color: rgb(33, 35, 37);
+    box-shadow: black 2,2,2,2;
+    padding: 1em;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1.5em;
+    text-wrap: nowrap;
+    img{
+      margin: auto;
+      width: 3.8em;
+      size: 3.8em;
+      padding-right: 0.2em;
+    }
+    .seat-det{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      font-family: "Saira Semi Condensed", sans-serif;
+      color: white;
+      font-weight: 600;
+        label{
+          padding: 0.1em;
+        }
+      }
+  }

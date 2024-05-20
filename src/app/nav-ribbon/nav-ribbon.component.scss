@@ -1,0 +1,19 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+  background-color: #083749;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+.element{
+  padding: 1.2em;
+  border-bottom: white solid;
+  &:hover{
+    background-color: #047ca0;
+  }
+}
+nav{
+  text-align: right;
+}

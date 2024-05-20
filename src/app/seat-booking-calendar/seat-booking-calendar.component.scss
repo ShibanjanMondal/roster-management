@@ -1,0 +1,41 @@
+th{
+  padding: 0.3em;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  border-right: white solid;
+}
+table{
+  padding: 0.5em;
+  //margin: 0.2em;
+  border-collapse: separate;
+  border-spacing: 0px 8px;
+}
+tr{
+  background-color: black;
+  border-radius: 5px;
+  td{
+    padding: 1.2em;
+    border-right: white solid;
+  }
+  .employee-card{
+    background-color: black;
+    border-right: white solid;
+    left: 0;
+    position:sticky;
+  }
+}
+.container{
+  background-color:rgb(205, 205, 205);
+  //box-shadow: rgba(50, 52, 54, 0.503) 0 0 3px 3px;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1em;
+  width: fit-content;
+}
+.table-header{
+  margin: 0.7em;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+}

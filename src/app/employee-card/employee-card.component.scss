@@ -1,0 +1,30 @@
+
+.employee-card{
+  background-color: rgb(48, 146, 95);
+  box-shadow: black 2,2,2,2;
+  padding: 0em 1em 0em 1em;
+  margin: auto;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  border-radius: 1.5em;
+  .emp-det{
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    margin: auto;
+    font-family: "Saira Semi Condensed", sans-serif;
+    text-wrap: nowrap;
+    color: white;
+    font-weight: 500;
+      label{
+        padding: 0.1em;
+      }
+    }
+    .icon{
+      flex-basis: auto;
+    }
+}
+img{
+  scale: 80%;
+}

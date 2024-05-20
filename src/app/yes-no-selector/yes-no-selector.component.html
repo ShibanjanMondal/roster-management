@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="dropdown">
+        <span>Booking Status</span>
+    </div>
+    <div class="select">
+      <button type="submit" class="bookingselector" [ngClass]="statusFlag==true ? 'selected' : 'not-selected'" (click)="bookSeat()">{{val}}</button>
+    </div>
+</div>

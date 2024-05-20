@@ -1,0 +1,36 @@
+div{
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+  background-color: rgb(173, 173, 173);
+  border-radius: 5px;
+  h2{
+      padding: 0px 4em 0px 4em;
+      margin: 0px 8px 0px 8px;
+      background-color: rgb(33, 35, 37);
+      border-radius: 4em;
+      color: white;
+  }
+  select{
+    border: none;
+    color: white;
+    border-radius: 4em;
+    background-color: rgb(33, 35, 37);
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    margin-right: 8em;
+  }
+  button{
+    justify-self: right;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    font-size: medium;
+    padding: 0px 0.8em 0px 0.8em;
+    border-radius: 4em;
+    border: none;
+  }
+  button:hover{
+      background-color: rgb(33, 35, 37);
+      color: white;
+  }
+}

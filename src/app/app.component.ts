@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'roster-management-frontend';
+  feather = require('feather-icons');
 }
